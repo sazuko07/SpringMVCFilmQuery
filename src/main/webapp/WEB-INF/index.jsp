@@ -7,6 +7,11 @@
 <title>SDPTFilms</title>
 </head>
 <body>
+	<form action="findByKeyword.do">
+		<input type="text" name="title">
+		<input type="submit" name="Find Film By Keyword" value="find">
+		
+	</form>
 	<form action="findById.do">
 		<input type="text" name="id">
 		<input type="submit" name="Find Film By ID" value="find">
