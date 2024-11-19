@@ -20,7 +20,7 @@
 	<form>
 		<input type="text" name="input a title" placeholder="input title here">
 		<input type="text" name="input a description" placeholder="input description here">
-		<input type="submit" name="submit">
+		<input type="submit" name="create new film" value="create new film">
 	
 	
 	</form>
