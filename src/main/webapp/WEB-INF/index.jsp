@@ -8,14 +8,21 @@
 </head>
 <body>
 	<form action="findByKeyword.do">
-		<input type="text" name="title">
-		<input type="submit" name="Find Film By Keyword" value="find">
+		<input type="text" name="title" placeholder="input keyword here">
+		<input type="submit" name="Find Film By Keyword" value="find film by Keyword">
 		
 	</form>
 	<form action="findById.do">
-		<input type="text" name="id">
-		<input type="submit" name="Find Film By ID" value="find">
+		<input type="text" name="id" placeholder="input film ID here">
+		<input type="submit" name="Find Film By ID" value="find film by ID">
 		
+	</form>
+	<form>
+		<input type="text" name="input a title" placeholder="input title here">
+		<input type="text" name="input a description" placeholder="input description here">
+		<input type="submit" name="submit">
+	
+	
 	</form>
 </body>
 </html>

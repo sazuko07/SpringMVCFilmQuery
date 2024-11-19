@@ -55,4 +55,18 @@ public class FilmController {
 		mv.addObject("films", films);
 		return mv;
 	}
+
+	@RequestMapping(path = { "createNewFilm.do"})
+	public ModelAndView createNewFilm(String title, String description) {
+	Film createFilm = null;
+	ModelAndView mv = new ModelAndView();
+	try {
+		createFilm = filmsDAO.createNewFilm(createFilm);
+	} catch(SQLException e) {
+		e.printStackTrace();
+	}
+	  mv.setViewName("WEB-INF/createfilm.jsp");
+	  mv.addObject("createNewFilm", createNewFilm(title, description));
+	  return mv;
+	}
 }

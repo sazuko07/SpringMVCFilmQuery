@@ -107,7 +107,7 @@ public class DatabaseAccessorObject implements DatabaseAccessor {
 								 * , rentalDuration, rentalRate, length, replacementCost, rating,
 								 * specialFeatures
 								 */));
-			System.out.println(films);
+			
 
 		}
 	

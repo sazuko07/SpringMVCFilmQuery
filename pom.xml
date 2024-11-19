@@ -45,5 +45,20 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>8.0.30</version>
 		</dependency>
-</dependencies>
+ <dependency>
+ 	<groupId>AdvancedRequestHandling</groupId>
+ 	<artifactId>AdvancedRequestHandling</artifactId>
+ 	<version>0.0.1-SNAPSHOT</version>
+ </dependency>
+ <dependency>
+ 	<groupId>JDBCImports</groupId>
+ 	<artifactId>JDBCImports</artifactId>
+ 	<version>0.0.1-SNAPSHOT</version>
+ </dependency>
+ <dependency>
+ 	<groupId>FilmQuery</groupId>
+ 	<artifactId>FilmQuery</artifactId>
+ 	<version>0.0.1-SNAPSHOT</version>
+ </dependency>
+  </dependencies>
 </project>
