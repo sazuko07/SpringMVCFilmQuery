@@ -64,7 +64,7 @@ public class DatabaseAccessorObject implements DatabaseAccessor {
 					System.err.println("Error trying to rollback");
 				}
 			}
-			throw new RuntimeException("Error inserting film " + film);
+			/*throw new RuntimeException("Error inserting film " + film);*/
 		}
 
 		return film;

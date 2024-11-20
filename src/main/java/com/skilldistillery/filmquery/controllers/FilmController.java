@@ -62,7 +62,7 @@ public class FilmController {
 	ModelAndView mv = new ModelAndView();
 	try {
 		createAFilm = filmsDAO.createNewFilm(createAFilm);
-	} catch(/*SQLException e*/) {
+	} catch(SQLException e) {
 		e.printStackTrace();
 	}
 	  mv.setViewName("WEB-INF/createfilm.jsp");
