@@ -4,6 +4,7 @@ import java.sql.SQLException;
 import java.util.List;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Repository;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
@@ -56,16 +57,16 @@ public class FilmController {
 		return mv;
 	}
 
-	@RequestMapping(path = { "createNewFilm.do"})
-	public ModelAndView createNewFilm(Film createFilm) {
+	@RequestMapping(path = { "createAFilm.do"})
+	public ModelAndView createAFilm(Film createAFilm) {
 	ModelAndView mv = new ModelAndView();
 	try {
-		createFilm = filmsDAO.createNewFilm(createFilm);
-	} catch(SQLException e) {
+		createAFilm = filmsDAO.createNewFilm(createAFilm);
+	} catch(/*SQLException e*/) {
 		e.printStackTrace();
 	}
 	  mv.setViewName("WEB-INF/createfilm.jsp");
-	  mv.addObject("createNewFilm", createFilm);
+	  mv.addObject("createAFilm", createAFilm);
 	  return mv;
 	}
 }

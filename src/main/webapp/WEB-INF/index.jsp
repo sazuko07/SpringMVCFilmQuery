@@ -17,7 +17,7 @@
 		<input type="submit" name="Find Film By ID" value="find film by ID">
 		
 	</form>
-	<form action="createNewFilm.do">
+	<form action="createAFilm.do" method="post">
 		<input type="text" name="input a title" placeholder="input title here">
 		<input type="text" name="input a description" placeholder="input description here">
 		<input type="submit" name="create new film" value="create new film">

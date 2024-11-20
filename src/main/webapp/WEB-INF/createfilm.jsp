@@ -7,7 +7,7 @@
 <title>Create New Film</title>
 </head>
 <body>
-<form action="createNewFilm.do" method="post">
+<form action="createAFilm.do" method="post">
 			title:   <input type="text" name="title" > <br>
 			Description:  <input type="text" name="description"><br>
 			<input type="submit" value="Add Film">
