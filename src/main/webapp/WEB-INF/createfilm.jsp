@@ -7,11 +7,10 @@
 <title>Create New Film</title>
 </head>
 <body>
-<form action="createAFilm.do" method="post">
-			title:   <input type="text" name="title" > <br>
-			Description:  <input type="text" name="description"><br>
-			<input type="submit" value="Add Film">
-	</form>
-
+You have successfully entered a film into the database!<br>
+<c:if test="${! empty film}">
+	 Title: ${film.title  }
+	 Description: ${film.description }	 
+</c:if>
 </body>
 </html>
