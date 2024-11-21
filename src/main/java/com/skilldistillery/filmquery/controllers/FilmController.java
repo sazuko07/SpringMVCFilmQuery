@@ -59,6 +59,7 @@ public class FilmController {
 
 	@RequestMapping(path = { "createAFilm.do"})
 	public ModelAndView createAFilm(Film createAFilm) {
+		System.out.println(createAFilm);
 	ModelAndView mv = new ModelAndView();
 	try {
 		createAFilm = filmsDAO.createNewFilm(createAFilm);

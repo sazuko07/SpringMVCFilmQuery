@@ -18,8 +18,8 @@
 		
 	</form>
 	<form action="createAFilm.do" method="post">
-		<input type="text" name="input a title" placeholder="input title here">
-		<input type="text" name="input a description" placeholder="input description here">
+		<input type="text" name="title" placeholder="input title here">
+		<input type="text" name="description" placeholder="input description here">
 		<input type="submit" name="create new film" value="create new film">
 	
 	
